@@ -280,7 +280,7 @@ local CONFIG = {
 
         Performance = {
             UIScale = 100,           -- Old UI scale percentage. Kept for compatibility even though this build is headless.
-            FPSLimit = 30,           -- FPS cap from the config you sent.
+            FPSLimit = 10,           -- FPS cap from the config you sent.
 
             RenderModes = {          -- Performance/render optimizations to enable.
                 "Delete Map",        -- Removes supported map objects to reduce rendering load.
