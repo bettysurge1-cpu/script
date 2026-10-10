@@ -209,11 +209,11 @@ local CONFIG = {
                 "GoldeeenlionBlox",  -- This username is treated as a sender account.
             },
 
-            ReceiverSend = true,     -- Enables repeated trade invites/actions for Receiver-list accounts.
-            ReceiverAccept = true,   -- Enables automatic trade acceptance for Receiver-list accounts.
+            ReceiverSend = false,     -- Enables repeated trade invites/actions for Receiver-list accounts.
+            ReceiverAccept = false,   -- Enables automatic trade acceptance for Receiver-list accounts.
 
-            SenderSend = true,       -- Enables repeated trade invites/actions for Sender-list accounts.
-            SenderAccept = true,     -- Enables automatic trade acceptance for Sender-list accounts.
+            SenderSend = false,       -- Enables repeated trade invites/actions for Sender-list accounts.
+            SenderAccept = false,     -- Enables automatic trade acceptance for Sender-list accounts.
 
             CurrentPlayersSend = false,   -- Enables Send Trade for the Current Players selection.
             CurrentPlayersAccept = false, -- Enables Auto Accept for the Current Players selection.
@@ -262,7 +262,7 @@ local CONFIG = {
         PlayerStats = false,         -- Enables the player-stats display/worker from the original script.
 
         Farm = {
-            Mode = "Tween",          -- Blade movement mode: "Tween", "Teleport", or "No Movement".
+            Mode = "Teleport",          -- Blade movement mode: "Tween", "Teleport", or "No Movement".
             HoverSpeed = 1000,       -- Tween/movement speed used while moving above Titans.
             HoverHeight = 400,       -- Height in studs to stay above the current Titan.
 
@@ -294,7 +294,7 @@ local CONFIG = {
         },
 
         FailSafe = {
-            Enabled = true,          -- Enables the combined fail-safe action system.
+            Enabled = false,          -- Enables the combined fail-safe action system.
             Delay = 46,              -- Seconds before the configured fail-safe action is performed.
 
             Actions = {              -- Actions performed by the fail-safe when enabled.
