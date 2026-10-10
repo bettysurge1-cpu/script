@@ -90,7 +90,7 @@ local CONFIG = {
         AutoTeleport = false,        -- Lobby automatic teleport feature.
 
         Mission = {
-            Name = "Shiganshina",         -- Mission/map to start automatically.
+            Name = "Chapel",         -- Mission/map to start automatically.
             Objective = "Skirmish",  -- Mission objective/mode.
             Difficulty = "Hardest",  -- Mission difficulty.
 
